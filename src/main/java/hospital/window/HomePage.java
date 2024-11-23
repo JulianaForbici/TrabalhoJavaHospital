@@ -734,7 +734,7 @@ public class HomePage extends JFrame {
 			}
 		});
 
-		consultingFeeLabel.setText("consulting price ( Lei. )");
+		consultingFeeLabel.setText("Taxa: ");
 
 		GroupLayout addDoctorPanelLayout = new GroupLayout(addDoctorPanel);
 		addDoctorPanel.setLayout(addDoctorPanelLayout);

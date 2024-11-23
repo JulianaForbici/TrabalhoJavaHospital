@@ -63,7 +63,6 @@ public class Select {
         if (rs.next()) {
             do {
                 int numberOfColumns = rs.getMetaData().getColumnCount();
-                // ArrayList unidimensional para armazenar a linha atual
                 ArrayList<String> currentRow = new ArrayList<>(numberOfColumns);
                 int i = 1;
                 while (i <= numberOfColumns) {

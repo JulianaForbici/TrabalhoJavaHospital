@@ -59,8 +59,6 @@ public class Login extends JFrame {
                 loginButtonActionPerformed(evt);
             }
         });
-
-        //LOGIN PANEL
         GroupLayout layout = new GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(

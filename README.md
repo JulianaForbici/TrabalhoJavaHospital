@@ -12,8 +12,10 @@ Bem-vindo ao **Sistema de Gestão Hospitalar**, uma aplicação Java desenvolvid
 
 ## Funcionalidades
 
-Este sistema foi desenvolvido para atender às principais necessidades de um hospital. As principais funcionalidades incluem: <p align="right">
-  <img src="https://i.gifer.com/origin/d8/d83e9951f28fc811c1166b16dcaec930_w200.gif" alt="GIF" width="200" />
+Este sistema foi desenvolvido para atender às principais necessidades de um hospital. As principais funcionalidades incluem:
+
+<p align="right">
+  <img src="https://i.gifer.com/origin/d8/d83e9951f28fc811c1166b16dcaec930_w200.gif" alt="GIF" width="150" />
 </p>
 
 - **Cadastro de Pacientes:** Registre informações detalhadas sobre os pacientes.

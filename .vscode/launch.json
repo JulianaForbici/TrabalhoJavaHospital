@@ -6,17 +6,24 @@
     "configurations": [
         {
             "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "hospital.main.App",
+            "projectName": "hospital"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}",
-            "projectName": "TrabalhoJavaHospital" 
+            "projectName": "TrabalhoJavaHospital"
         },
         {
             "type": "java",
             "name": "App",
             "request": "launch",
-            "mainClass": "hospital.main.App",  
-            "projectName": "TrabalhoJavaHospital", 
+            "mainClass": "hospital.main.App",
+            "projectName": "TrabalhoJavaHospital"
         }
     ]
 }

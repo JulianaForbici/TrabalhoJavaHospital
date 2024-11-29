@@ -1,26 +1,45 @@
 package hospital.window;
 
-import javax.swing.*;
-import javax.swing.table.*;
-
+import java.awt.BorderLayout;
+import java.awt.CardLayout;
 import java.awt.Dimension;
-import java.awt.Toolkit.*;
+import java.awt.Toolkit;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.ComponentAdapter;
+import java.awt.event.ComponentEvent;
+import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import static java.lang.Integer.parseInt;
 import java.sql.SQLException;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Date;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import java.awt.event.*;
-import com.toedter.calendar.*;
+
+import javax.swing.ButtonGroup;
+import javax.swing.GroupLayout;
+import javax.swing.GroupLayout.Alignment;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JRadioButton;
+import javax.swing.JScrollPane;
+import javax.swing.JTable;
+import javax.swing.JTextArea;
+import javax.swing.JTextField;
+import javax.swing.LayoutStyle;
+import javax.swing.LayoutStyle.ComponentPlacement;
+import javax.swing.WindowConstants;
+import javax.swing.table.DefaultTableModel;
+
+import com.toedter.calendar.JDateChooser;
 
 import hospital.Impl.Delete;
 import hospital.Impl.Insert;
 import hospital.Impl.Select;
-
-import java.awt.*;
-import javax.swing.GroupLayout.Alignment;
-import javax.swing.LayoutStyle.ComponentPlacement;
 
 public class HomePage extends JFrame {
 
@@ -492,9 +511,9 @@ public class HomePage extends JFrame {
 
 		activityPanel.add(addTreatmentPanel, "card2");
 
-		delPatientIdLabel.setText("Identificação Paciente");
+		delPatientIdLabel.setText("ID");
 
-		delPatientFindButton.setText("PROCURAR");
+		delPatientFindButton.setText("Procurar");
 		delPatientFindButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent evt) {
 				delPatientFindButtonActionPerformed(evt);
@@ -645,14 +664,14 @@ public class HomePage extends JFrame {
 
 		searchUsingLabel.setText("Procure usando:");
 
-		searchUsingNameButton.setText("Nome: ");
+		searchUsingNameButton.setText("Nome ");
 		searchUsingNameButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent evt) {
 				searchUsingNameButtonActionPerformed(evt);
 			}
 		});
 
-		searchUsingIdButton.setText("Identificação: ");
+		searchUsingIdButton.setText("ID ");
 		searchUsingIdButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent evt) {
 				searchUsingIdButtonActionPerformed(evt);
@@ -734,7 +753,7 @@ public class HomePage extends JFrame {
 			}
 		});
 
-		consultingFeeLabel.setText("Taxa: ");
+		consultingFeeLabel.setText("E-mail: ");
 
 		GroupLayout addDoctorPanelLayout = new GroupLayout(addDoctorPanel);
 		addDoctorPanel.setLayout(addDoctorPanelLayout);

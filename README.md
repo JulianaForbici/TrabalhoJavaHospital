@@ -29,3 +29,6 @@ Clone este repositório para sua máquina local:
 
 ```bash
 git clone https://github.com/JulianaForbici/TrabalhoJavaHospital.git
+
+![Pokemon](https://pa1.aminoapps.com/6334/37de8b9f15dd3e6a38e338184837e472fccd3cd5_hq.gif)
+

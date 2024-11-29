@@ -1,3 +1,5 @@
+![Pokemon](https://pa1.aminoapps.com/6334/37de8b9f15dd3e6a38e338184837e472fccd3cd5_hq.gif)
+
 # Sistema de Gestão Hospitalar
 
 Bem-vindo ao **Sistema de Gestão Hospitalar**, uma aplicação Java desenvolvida para facilitar o gerenciamento de pacientes e médicos em hospitais. Nosso sistema permite o cadastro de pacientes e médicos, controle de altas, registro de tratamentos e consulta rápida para localizar pacientes por nome ou ID.
@@ -30,5 +32,4 @@ Clone este repositório para sua máquina local:
 ```bash
 git clone https://github.com/JulianaForbici/TrabalhoJavaHospital.git
 
-![Pokemon](https://pa1.aminoapps.com/6334/37de8b9f15dd3e6a38e338184837e472fccd3cd5_hq.gif)
 

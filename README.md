@@ -34,4 +34,33 @@ Clone este repositório para sua máquina local:
 ```bash
 git clone https://github.com/JulianaForbici/TrabalhoJavaHospital.git
 
+```
+
+### 2. Crie o Banco de Dados 'Hospital' e adcione as seguintes tabelas: 
+
+```
+CREATE DATABASE HOSPITAL;
+````
+````
+CREATE TABLE patient (
+    patient_id INT AUTO_INCREMENT PRIMARY KEY,  
+    name VARCHAR(100) NOT NULL,               
+    birthday DATE NOT NULL,                    
+    sex ENUM('Masculino', 'Feminino', 'Outros') NOT NULL,  
+    address VARCHAR(255),                        
+    phone VARCHAR(15),                           
+    creation_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP 
+);
+````
+````
+
+CREATE TABLE doctor (
+    doctor_id INT AUTO_INCREMENT PRIMARY KEY,   
+    name VARCHAR(100) NOT NULL,             
+    specialization VARCHAR(100),                  
+    phone VARCHAR(15),                           
+    email VARCHAR(100)                           
+);
+```
+
 

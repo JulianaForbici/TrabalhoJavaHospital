@@ -16,8 +16,8 @@ Este sistema foi desenvolvido para atender às principais necessidades de um hos
 
 - **Linguagem de Programação:** Java (JDK 11 ou superior)
 - **IDE:** Visual Studio Code (VS Code)
-- **Framework:** Spring Boot (se você estiver usando Spring Boot para construir a aplicação)
-- **Banco de Dados:** MySQL / PostgreSQL / H2 (dependendo de sua escolha)
+- **Biblioteca:** Swing
+- **Banco de Dados:** MySQL  
 - **Gerenciador de Dependências:** Maven
 - **Versão Java:** JDK 11 ou superior
 

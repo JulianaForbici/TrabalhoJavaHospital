@@ -61,6 +61,6 @@ CREATE TABLE doctor (
     phone VARCHAR(15),                           
     email VARCHAR(100)                           
 );
-```
+
 
 
